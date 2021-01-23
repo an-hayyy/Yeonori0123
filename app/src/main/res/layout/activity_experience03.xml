@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:layout_marginLeft="25dp"
+                    android:text="문화체험" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/c01"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/culture0306" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="한국의 Meat Market '마장축산물시장'" />
+
+            <ImageView
+                android:id="@+id/c02"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/culture2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="세계 다문화 박물관" />
+
+            <ImageView
+                android:id="@+id/c03"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/culture3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="한국 민속촌" />
+
+            <ImageView
+                android:id="@+id/c04"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/culture4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="안산 다문화거리" />
+
+            <ImageView
+                android:id="@+id/c05"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/culture5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="행복전통마을 '구름에'" />
+
+
+            <ImageView
+                android:id="@+id/c06"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/culture1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="500년 전통의 공주 하대리 '칠석제'" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

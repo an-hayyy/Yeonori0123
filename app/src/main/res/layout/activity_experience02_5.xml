@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:layout_marginLeft="25dp"
+                    android:text="베트남[Vietnam] '아오자이'" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/nanumsquareb"
+                android:text="베트남 여성의 상징, 아오자이"
+                android:textColor="@color/orange"
+                android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/d05"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/nanumsquareb"
+                android:text="갈등과 화해의 기억 머금은 실루엣의 미학"
+                android:textColor="@color/yeonori"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="'우리가 다시 만날 때까지 제발 잊지 말아요 당신의 푸른 아오자이를 내사랑, 누가 의심하리오 그토록 사랑스러운 푸른빛은 결코 시들지 않는다는 것을!'"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="아오자이에 관한 가장 유명한 노래로 꼽히는 '푸른 아오자이'의 한 구절이다. 가날픈 듯 경쾌한 맵시와 때로 화려해 보이지만 은은한 실루엣이 더 멋스러운, 작은 바람에도 옷깃 휘날리는 듯 하다."/>
+            <ImageView
+                android:id="@+id/d05_2"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress5_4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="베트남의 상징"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/yeonori"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="베트남 여성의 대표적인 전통의상 아오자이는 많은 기억을 머금고 있다. 역사적 전환기마다 이 옷은 빠지지 않고 논란을 낳았다. 하지만 그러면서 아오자이는 진화해왔고, 어느덧 베트남의 상징이 됐다."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="‘아오(áo)’는 ‘옷’을 ‘자이(dài)’는 ‘긴’을 뜻한다. 아오자이는 상의와 바지, 두 부분으로 이루어진다. 상의는 치마처럼 길게 내려오는 튜닉 형태다."/>
+            <ImageView
+                android:id="@+id/d05_4"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress5_2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/nanumsquareb"
+                android:text="아름다운 의상. 하지만 모든 여성이 입을 수는 없는 옷"
+                android:textColor="@color/yeonori"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="외국인 여성들은 아오자이의 고운 자태와 결에 찬사를 보낸다. 하지만 아오자이는 어깨가 좁고 마른 몸매의 베트남 여성에게 가장 잘 어울리는 옷이다. 아오자이는 외국인 여성들을 좀체 ‘받아들이지’ 않아 신비감과 동경은 오히려 커진다."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

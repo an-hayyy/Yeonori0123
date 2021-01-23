@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:layout_marginLeft="25dp"
+                    android:text="음식체험" />
+            </LinearLayout>
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:textSize="24sp"
+                android:textColor="#86e3ce"
+                android:text="| 음식 체험"/>-->
+            <ImageView
+                android:id="@+id/f01"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food6" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="세네갈 '송비'와 한국 '호박죽'" />
+            <ImageView
+                android:id="@+id/f02"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="중국 '월병' 과 한국 '약식'" />
+
+            <ImageView
+                android:id="@+id/f03"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="일본 '소바' 와 한국 '냉면'" />
+
+            <ImageView
+                android:id="@+id/f04"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="라오스 '카오삐약' 과 한국 '칼국수'" />
+
+            <ImageView
+                android:id="@+id/f05"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="태국 '똠양꿍' 과 한국 '추어탕'" />
+
+            <ImageView
+                android:id="@+id/f06"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="몽골 '반탕'과 한국 '팥죽'" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

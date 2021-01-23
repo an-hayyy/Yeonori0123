@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Sos"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/nanumsquareb"
+            android:layout_marginLeft="25dp"
+            android:text="SOS" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="35dp"
+        android:lineSpacingExtra="5dp"
+        android:gravity="center_horizontal"
+        android:text= "취업에 어려움을 겪는 다문화 가정을 위한 취업 및 직업훈련,근로 관련 주요사항,외국인 인력 지원센터를 제공합니다."/>
+
+    <ImageView
+        android:id="@+id/sos01"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sos01v3" />
+
+    <ImageView
+        android:id="@+id/sos02"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sos02v3" />
+
+    <ImageView
+        android:id="@+id/sos03"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sos03v3" />
+</LinearLayout>

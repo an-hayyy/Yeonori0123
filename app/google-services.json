@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "929744634877",
+    "project_id": "yeonory",
+    "storage_bucket": "yeonory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:929744634877:android:4f170a29bd595bd0938f94",
+        "android_client_info": {
+          "package_name": "com.example.yeonori1209"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "929744634877-508ua1oppleq4otdju9p2s7di6r6tjbg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yeonori1209",
+            "certificate_hash": "d0bd1fa4abede400b888fb41f7dbaff85d2a2dc3"
+          }
+        },
+        {
+          "client_id": "929744634877-vkoc4q8j5cqdo33e5a1c91ckj9fmltg5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDO4LPz7qEgZwFCQpdb77tv3hfMBbDeoRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "929744634877-vkoc4q8j5cqdo33e5a1c91ckj9fmltg5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

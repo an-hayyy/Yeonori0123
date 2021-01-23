@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.yeonori1209.TestActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예약에 걸린시간 :" />
+        <Chronometer
+            android:id="@+id/ch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="%s"
+            />
+    </LinearLayout>
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="예약시작"/>
+    <RadioGroup
+        android:id="@+id/rGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        >
+        <RadioButton
+            android:id="@+id/rdoDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="날짜설정" />
+        <RadioButton
+            android:id="@+id/rdoTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="시간설정" />
+    </RadioGroup>
+    <FrameLayout
+        android:id="@+id/caltime"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center">
+        <CalendarView
+            android:id="@+id/cal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:showWeekNumber="false"
+            android:visibility="invisible"/>
+        <TimePicker
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="invisible"/>
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예약완료"
+            android:enabled="false"/>
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="0000년00월00일00시00분"/>
+    </LinearLayout>
+</LinearLayout>
+

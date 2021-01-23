@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Education"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/nanumsquareb"
+            android:layout_marginLeft="25dp"
+            android:text="교육안내" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="35dp"
+        android:lineSpacingExtra="5dp"
+        android:gravity="center_horizontal"
+        android:text="교육안내에서는 번역 안내, 한국어 교육, 외국어교육등을 제공함으로써 언어에 대한 어려움을 겪는 다문화가정을 돕는 메뉴입니다." />
+
+    <ImageView
+        android:id="@+id/education03"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/transration" />
+
+
+    <ImageView
+        android:id="@+id/education01"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/education01v3" />
+
+    <ImageView
+        android:id="@+id/education02"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/education02v3" />
+
+
+
+
+</LinearLayout>

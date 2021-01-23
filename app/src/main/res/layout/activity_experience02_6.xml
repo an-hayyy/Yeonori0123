@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:layout_marginLeft="25dp"
+                    android:text="인도[India] '사리'" />
+            </LinearLayout>
+            <fragment
+                android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+                android:id="@+id/youtubeplayerfragment"
+                android:layout_gravity="center"
+                android:layout_width="370dp"
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="인도의 전통의상"
+                android:textColor="@color/orange"
+                android:fontFamily="@font/nanumsquareb"
+                android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/d06"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress6_" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/nanumsquareb"
+                android:text="일상 곳 눈에 띄는 화려한 전통의상"
+                android:textColor="@color/yeonori"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+
+                android:text="인도 사람들은 평소에도 전통 의상을 즐겨 입는다. 색깔과 종류도 매우 다양하여 보는 즐거움을 갖고 있다."/>
+            <ImageView
+                android:id="@+id/d06_2"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress6_2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/nanumsquareb"
+                android:text="인도 여자 전통의상 : 사리(sari)"
+                android:textColor="@color/yeonori"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="사리는 인도 전통의상을 떠올리면 가장 먼저 생각 나는 그 옷이다. 산스크리트어로 ‘길게 늘어진 천’이라는 이름을 가진 만큼 언뜻 보면 몇 겹의 천을 둘러 입은 것 같지만, 4m~8m짜리 원단을 어떤 바느질 없이 그대로 둘러 입는다. "/>
+            <ImageView
+                android:id="@+id/d06_3"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress6_3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/nanumsquareb"
+                android:text="통 원단으로 된 사리를 입는 법"
+                android:textColor="@color/yeonori"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="지역과 신분마다 입는 방식이 다르지만 보편적인 방식은 이렇다. 우선 속치마와 블라우스를 안에 입고, 사리를 허리 따라 한 바퀴 둘러 준다. 속치마 안에 사리를 넣어 고정한 다음, 주름을 잡아주고 어깨로 휙 올려준다. 옷핀으로 어께에 옷을 고정하면 완성이다."/>
+            <ImageView
+                android:id="@+id/d06_4"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress6_4" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:text="https://www.youtube.com/watch?v=Hjjf6xC5kac"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:autoLink="web" />
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:orientation="vertical">
+                    <Button
+                        android:id="@+id/btnviewfullscreen"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:text="View in Full Screen" />
+                    <TextView
+                        android:id="@+id/videolog"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp" />
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

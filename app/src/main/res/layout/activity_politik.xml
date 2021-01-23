@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/Politik"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/nanumsquareb"
+            android:layout_marginLeft="25dp"
+            android:text="정책열람" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:lineSpacingExtra ="5dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="@font/nanumsquareb"
+        android:text="다문화 가정에게 도움이 될 만한 정책을 한눈에 볼 수 있도록 모아놓았습니다 " />
+
+    <ImageView
+        android:id="@+id/politikicon01"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+            android:src="@drawable/politik01v3" />
+
+    <ImageView
+        android:id="@+id/politikicon02"
+        android:layout_width="300dp"
+        android:layout_height="135dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/politik02v3" />
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:padding="0sp"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/yeonori" />
+
+</LinearLayout>

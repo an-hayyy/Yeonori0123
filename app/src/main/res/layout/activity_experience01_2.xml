@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="22sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:layout_marginLeft="25dp"
+                    android:text="중국 월병 · 한국 약식" />
+            </LinearLayout>
+            <ImageView
+                android:id="@+id/f02"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/nanumsquareb"
+                android:text="달처럼 둥글게 빚은 월병"
+                android:textColor="@color/brown"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/nanumsquareb"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="준비 재료"
+                android:textColor="@color/yeonori"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="박력분 180g, 버터 20g, 설탕 30g, 연유 30g, 아몬드가루 50g, 앙금 300g, 견과류 90g, 계란 1개, 계란물(노른자 1개+물)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="만드는 법"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/yeonori"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· 볼에 계란을 풀어준 후 버터, 설탕, 연유를 넣고 천천히 섞는다."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· 거기에 채에 내린 박력분, 아몬드가루를 넣고 섞은 후 비닐에 싸서 냉장고에 1시간쯤 둔다."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· 앙금에 견과류를 넣고 섞은 후 30g씩 동그랗게 빚는다."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· 냉장고에서 반죽을 꺼내 30g씩 동그랗게 빚은 후 그 안에 앙금을 넣는다."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· 월병 틀을 이용해 예쁜 모양을 만든다."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· 표면에 계란물을 바른다."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· 180도로 예열된 오븐에 넣고 15~20분 정도 굽는다."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· Mix eggs in a bowl, add butter, sugar and condensed milk and mix slowly."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· Put the flour and almond powder in the bowl, mix, wrap in vinyl, and place in a refrigerator for 1 hour."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· Add nuts to the precipitate and mix, then round 30g."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· Take out the dough in a refrigerator and round it 30g at a time, then put the precipitate in it."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="·  Make a beautiful shape using."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· Put eggs and water on the surface."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="20dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· Put it in an oven preheated to 180 degrees and leave for 15 to 20 minutes."/>
+
+            <!--약식-->
+            <ImageView
+                android:id="@+id/f022"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/food22" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="달콤한 영양 간식 약식"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:textSize="18sp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="준비 재료"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/yeonori"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="찹쌀 300g, 밤·대추 10개씩(기호에 따라 잣, 호두, 아몬드 같은 견과류도 가능), 양념(흑설탕 40g, 간장 2큰술, 참기름 1큰술, 소금·계피 약간)"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/nanumsquareb"
+                android:text="만드는 법"
+                android:textColor="@color/yeonori"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· 찹쌀은 물에 5시간 이상 담가 충분히 불린 후 체에 밭쳐 물기를 뺀다."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· 밤은 3~4등분하고, 대추는 씨를 뺀 후 채 썰어 찹쌀에 넣고 섞는다."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· 전기밥솥에 찹쌀과 양념을 넣고 잘 섞은 후 물은 재료가 살짝 덮이는 정도만 넣고 취사 버튼을 누른다. 영양찜 기능이 있으면 영양찜으로 취사한다."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· 취사가 끝나면 10분간 뜸을 들인다. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="10dp"
+                android:text="· 네모난 그릇에 반반하게 펴 담아 잘 식힌 후 먹기 좋게 썬다. "/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· The glutinous rice is immersed in water for at least 5 hours and then drained."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· At night, divide it into 3 and 4 parts. After seeding the seeds, mix them into chopped glutinous rice."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· After adding glutinous rice and seasoning to the electric rice cooker and mixing well, add the water to the extent that the ingredients are covered and press the rice cooker button."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="· When the digitization is complete, steam for 10 minutes."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:layout_marginBottom="30dp"
+                android:text="· Eat in a square bowl, chill and eat."/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

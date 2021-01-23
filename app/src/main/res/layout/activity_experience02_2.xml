@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:layout_marginLeft="25dp"
+                    android:text="멕시코[Mexico] '판초'" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="남미의 대표적인 의류"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/orange"
+                android:textSize="18sp" />
+            <ImageView
+                android:id="@+id/d02"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="멕시코 전통의상"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/yeonori"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="멕시코 전통의상은 고대 문명을 받으면서 멕시코를 상징하는 짙은 빨강이나 갈색 등 흙의 색상을 본뜬 색이 많다."/>
+            <ImageView
+                android:id="@+id/d02_2"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress2_2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/nanumsquareb"
+                android:text="멕시코 전통의상 '남자'"
+                android:textColor="@color/yeonori"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="남자는 면으로 만들어진 셔츠와 바지를 입고 후라아체라는 가죽으로 된 샌들을 신는다. 창이 넓고 끝이 말려 올라가 있는 모자인 솜브레를 스며 비가 오거나 추우면 판초를 입는다."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/nanumsquareb"
+                android:text="멕시코 전통의상 '여자'"
+                android:textColor="@color/yeonori"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="여자는 원피스 형태의 후아필과 외투인 퀘치케이를 입고 국기 색인 빨강, 초록, 흰색으로 된 스카프인 레조보를 머리에 쓴다. 후아필의 무늬는 토착 원주민의 부족에 따라 다르게 되어 있고 명칭 역시 다르게 불린다."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:fontFamily="@font/nanumsquareb"
+                android:text="판초의 다양한 형태"
+                android:textColor="@color/yeonori"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="5dp"
+                android:text="전통적인 판초는 단순한 천으로 만들어지는 경우가 많았지만, 최근에는 패션 아이템으로 다양한 재질의 천이나 아이템 등을 사용하여 우비용, 겨울용, 모자가 달린 판초 등이 만들어지고 있다. 최근에는 애완동물을 위한 판초가 인기를 끌고 있다."/>
+            <ImageView
+                android:id="@+id/d02_5"
+                android:layout_width="370dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/dress2_5" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </TabWidget>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:id="@+id/koreatab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="온라인에서 무료로 한국어를 학습할 수 있는 웹사이트를 안내해드립니다. 웹사이트에 따라 회원가입이 필요할 수 있습니다. "/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/graybackground">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="15dp"
+                                android:text="누리-세종학당"
+                                android:fontFamily="@font/nanumsquareb"
+                                android:textColor="@color/yeonori"
+                                android:textSize="18sp"
+                                />
+
+                            <Button
+                                android:layout_width="270dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/nanumsquareb"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="누리-세종학당 바로가기"
+                                android:textColor="@color/white"
+                                android:id="@+id/sejong"
+                                android:background="@drawable/border_radius"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="400dp"
+                                android:src="@drawable/koreaeducation01"
+                                android:layout_marginTop="5dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="·소개 "
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="한국어 의사소통능력(말하기, 듣기, 읽기, 쓰기)을 모두 공부할 수 있는 누리-세종학당 표준 한국어 학습과정을 제공합니다."/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="·서비스 언어"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="한국어, 영어, 중국어, 일본어, 베트남어, 태국어, 스페인어, 프랑스어"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/graybackground">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="@font/nanumsquareb"
+                                android:text="고려사이버대학교"
+                                android:textColor="@color/yeonori"
+                                android:textSize="18sp"
+                                />
+
+                            <Button
+                                android:layout_width="270dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:id="@+id/koreanuniv"
+                                android:text="고려사이버대학교"
+                                android:textColor="@color/white"
+                                android:fontFamily="@font/nanumsquareb"
+                                android:background="@drawable/border_radius" />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="500dp"
+                                android:src="@drawable/koreaeducation02"
+                                android:layout_marginTop="5dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="·소개 "
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="수준별 한국어 학습 서비스 제공"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="·서비스 언어"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="한국어, 영어, 중국어, 일본어, 스페인어"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/graybackground">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="15dp"
+                                android:text="EBS 두리안"
+                                android:fontFamily="@font/nanumsquareb"
+                                android:textColor="@color/yeonori"
+                                android:textSize="18sp"
+                                />
+
+                            <Button
+                                android:layout_width="270dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:id="@+id/ebseducation"
+                                android:text="EBS 두리안 바로가기"
+                                android:textColor="@color/white"
+                                android:fontFamily="@font/nanumsquareb"
+                                android:background="@drawable/border_radius"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="240dp"
+                                android:src="@drawable/koreaeducation03"
+                                android:layout_marginTop="5dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="·소개 "
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="10dp"
+                            android:lineSpacingExtra="5dp"
+                            android:text="한국어 학습 및 결혼이민자·다문화가족 자녀 성장에 도움이 되는 다양한 번역 콘텐츠 서비스 제공 : 한국어 배움터, 우리 아이 놀이터, 문화 나눔터, 초·중·고 클립뱅크, 한국어능력시험 TOPIK 이벤트 등 "/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="※ 초·중·고 클립뱅크 : 다문화자녀들과 중도입국청소년의 초·중·고 교과 과정 학습 지원 "/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="·서비스 언어"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="한국어, 영어, 중국어, 베트남어"/>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/graybackground">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="15dp"
+                                android:fontFamily="@font/nanumsquareb"
+                                android:text="국립어린이청소년도서관 다문화동화 구연"
+                                android:textColor="@color/yeonori"
+                                android:textSize="18sp"
+                                />
+
+                            <Button
+                                android:layout_width="270dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:id="@+id/dmh"
+                                android:fontFamily="@font/nanumsquareb"
+                                android:textColor="@color/white"
+                                android:text="국립어린이청소년도서관 다문화동화 구연 바로가기"
+                                android:background="@drawable/border_radius"/>
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="500dp"
+                                android:src="@drawable/koreaeducation04"
+                                android:layout_marginTop="5dp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="·소개 "
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="한국의 전래동화와 창작동화를 플래시 애니메이션으로 소개합니다."/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="·서비스 언어"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="20dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:layout_marginBottom="10dp"
+                                android:text="한국어, 영어, 몽골어, 베트남어, 중국어, 태국어"/>
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/graybackground"
+                            android:inputType="textMultiLine"
+                            android:lineSpacingExtra="5dp"
+                            android:padding="10dp"
+                            android:text="이 내용은 2018년 4월 기준으로 작성된 자료이므로, 일부 내용은 참고하시는 시점의 내용과 상이할 수 있음을 알려드립니다." />
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/koreatab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/graybackground">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/yeonori"
+                                android:textSize="18sp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/nanumsquareb"
+                                android:text="‘가늘다’와 ‘얇다’, ‘굵다’와 ‘두껍다’"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="‘가늘다’와 ‘얇다’, ‘굵다’와 ‘두껍다’"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="‘가늘다’와 ‘얇다’, ‘굵다’와 ‘두껍다’는 같은 의미로 생각되지만 조금 다른 의미를 지니고 있다.
+                                \n 머리카락이 가늘다 (O), 머리카락이 얇다 (X)
+                                \n사과 껍질이 얇다 (O), 사과 껍질이 가늘다 (X)
+                                \n팔목이 굵다 (O), 팔목이 두껍다 (X)
+                                \n잡지가 두껍다 (O), 잡지가 굵다 (X)
+                                \n위 예문에서 알 수 있듯이 ‘가늘다’는 긴 물체의 굵기나 넓이가
+                                얇거나 좁을 때, ‘얇다’는 층을 이루는 사물의 높이 등의 규모가
+                                보통이 안 될 때, ‘굵다’는 긴 물체의 굵기나 넓이가 두껍거나
+                                넓을 때, ‘두껍다’는 층을 이루는 사물의 높이 등의 규모가
+                                보통을 넘을 때 사용하면 된다.\n"/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/graybackground">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/yeonori"
+                                android:textSize="18sp"
+                                android:layout_marginBottom="10dp"
+                                android:fontFamily="@font/nanumsquareb"
+                                android:text="몸이 아플 때 사용하는 다양한 표현"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="한국어가 아직 어려운 이들을 위한 한국어 가이드. 똑같은 말도 상황에 따라다른 의미를 가진 말들이 많다. 병원, 경찰서, 학교 등을 찾아갈 때 알아두면 유용한 한국어들을 익혀보자."/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="A : 아우 몸이 쑤셔.
+                                \nB : 왜? 뭐가 몸을 쑤셔?
+                                \nA : 아니. 열이 나서 몸이 아픈 거야.
+                                \nB : 아, 몸이 쑤시는 게 몸이 아픈 거구나.
+                                \nA : 응. 감기인 것 같아. 아무래도병원에 가봐야 할 것 같아.
+                                \nB : 감기 걸려 몸이 아플때 몸이 쑤신다고 하는구나. 몸이 쑤시니병원에 얼른 가봐.
+                                \n‘쑤시다’는 긴 막대기로 물건을 찌를때도 사용하지만, 몸살이 나서 몸이 아플 때 몸이 쑤신다는 표현을 쓰기도 합니다.
+                                \n"/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="이런 표현도 있어요"
+                                android:textColor="@color/yeonori"
+                                android:textSize="18sp"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="● 끓다: “액체가 몹시 뜨거워져서 소리를내며 거품이 솟아오르다.” 혹은 아플 때 나는 ‘열’과 함께 “지나치게 뜨거워지다.”로쓰임.
+                                \n[표현 활용하기]
+                                \n“집에 오는 길에 비를 맞았더니, 열이 펄펄 끓어.”\n\n● 달아나다: “위험을 피하여 도망가다.” 혹은 ‘열’이나 ‘감기’와 함께 쓰일 땐 “있던것이 없어지거나 붙어 있던 것이 떨어져 나가다.”의 의미를 가짐.
+                                \n[표현 활용하기]
+                                \n“병원에서 주사를 맞았더니 열이 달아났어!”
+                                "/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="● 몸이 아파서 병원에 갔을 때알아두면 좋은 표현을 배워봐요. "
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="몸이 쑤신다(몸살 기운이 있다)
+                                \n머리가 지끈거린다(두통이 있다)
+                                \n몸이 으슬으슬하다(열이 난다)
+                                \n코가 맹맹하다(코가 막혔다)
+                                \n속이 매스껍다(소화가 잘 안 된다)\n
+                                "/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/graybackground">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/yeonori"
+                                android:textSize="18sp"
+                                android:layout_marginBottom="10dp"
+                                android:text="미용과 관련된 한국어 표현 "
+                                android:fontFamily="@font/nanumsquareb"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="미용과 관련된 한국식 표현"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="‘A : 헤어스타일이 바뀌었네요? 잘 어울려요.
+                                \nB : 고마워요. 미용실에 머리 자르러 갔다가 그냥 머리 볶았어요.
+                                \nA : 네? 머리를 자르고 볶아요?
+                                \nB : 한국에서는 머리카락을 머리라고 말하기도 해요.‘머리 자르다’는 헤어 커트, ‘머리 볶다’는 파마의 의미에요.
+                                \nA : 조금 무섭지만 재미있는 표현이네요.
+                                \nB : 화장이 잘 됐을 때는 화장이 잘 먹었다고도 해요.
+                                \nA : 자르고 볶고 먹고…. 마치 요리를 하는 것 같아요.
+                                \nB : 그렇죠? 알쏭달쏭 재미있는 한국식 표현이에요\n
+                                "/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/graybackground">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/yeonori"
+                                android:textSize="18sp"
+                                android:layout_marginBottom="10dp"
+                                android:text="맛을 나타내는 여러 가지 말  "
+                                android:fontFamily="@font/nanumsquareb"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="한국어의 ‘같은 말, 다른 뜻’ 바로 알기"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="A : 추석 명절이 지났는데 고향에는 잘 다녀오셨어요?
+                                \nB : 네, 저는 고향이 섬이라 배¹를 타고 하루 전날에 갔어요.
+                                \nA : 그렇군요. 다양한 햇과일이 나왔던데, 어떤 과일을 좋아하세요?
+                                \nB : 저는 과일 중에 배²를 가장 좋아해요.
+                                \nA : 아, 그렇군요. 저는 사과를 좋아해요.
+                                \nB : 저는 예전에 사과를 평소보다 두 배³나 많이 먹어서 배⁴가 아팠던 경험이 있어요.
+                                \nA : 맞아요. 몸에 좋은 과일도 너무 많이 먹으면 건강에 좋지 않아요.
+                                " />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="‘동음이의어’와 ‘다의어’"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="배¹와 배², 배³와 배⁴는 발음은 같지만 뜻이 전혀 다른 동음이의어다. ‘배’의 뜻은 크게 4가지로 나뉘고 발음은 같지만 상황에 따라 본래의 뜻과 연관된 다른 의미를 적절하게 사용해야 한다. "/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="맛을 나타내는 말 배우기"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="A : 한식에서는 맛을 표현하는 방법이 여러 가지예요.
+                                \nB : 맛을 표현하는 방법에는 어떤 것이 있을까요?
+                                \nA : 기본적으로 ‘짜다’, ‘싱겁다’, ‘맵다’, ‘달다’, ‘쓰다’, ‘시다’라는 표현이 있어요.
+                                \nB : 소금이나 간장이 많이 들어간 것을 ‘짜다’, 적게 들어간 것을 ‘싱겁다’고 하는 거죠?
+                                \nA : 맞습니다. ‘맵다’는 것은 고춧가루나 고추장을 넣은 음식이에요.
+                                \nB : 그럼 ‘쓰다’, ‘시다’는 어떤 맛인가요?
+                                \nA : ‘쓰다’는 한약재를 먹었을 때, ‘시다’는 식초를 먹을 때 느끼는 맛이에요.\n
+                                "/>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/graybackground">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:textColor="@color/yeonori"
+                                android:textSize="18sp"
+                                android:layout_marginBottom="10dp"
+                                android:text="한국 ‘전통 그릇’의 다양한 명칭 "
+                                android:fontFamily="@font/nanumsquareb"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="한국어는 동사나 형용사의 변화가 심해 배우기 어려운 언어 중 하나로 꼽힌다. 사용되는 단어가 다양한 데다 발음은 같지만 뜻이 다른 낱말, 발음과 뜻이 같지만 상황에 따라 조금 다른 의미로 해석되는 낱말 등까지 헷갈리는 요소가 많다. 알쏭달쏭한 한국어를 배워보자."/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="한국 ‘전통 그릇’의 다양한 명칭 배우기"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="A: 음식 종류가 아주 많네요. 모양도 색도 예뻐요.
+                                \nB: 한식은 맛도 좋고 건강에도 좋습니다.
+                                \nA: 냄비에 찌개가 아직도 끓고 있어 신기해요.
+                                \nB: 그건 냄비가 아니라 뚝배기에요. 뜨거운 음식이 금방 식지 않아 좋아요.
+                                \nA: 여기 김치 대접도 예뻐요.
+                                \nB: 대접은 국물을 담을 때 써요. 김치 그릇은 보시기라고 불러요.
+                                \nA: 이 작은 것은 뭐예요?
+                                \nB: 간장, 초고추장 등 조미료를 담는 종지예요.
+                                " />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="한국어의 ‘같은 말, 다른 뜻’ 바로 알기"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="A: 할머니, 오늘 날씨가 정말 더워요.
+                                \nB: 그렇구나. 햇볕이 뜨거운데 발¹ 좀 내려주겠니?
+                                \nA: 네. 발¹을 내리니 훨씬 시원하네요.
+                                \nB: 많이 걸었는데 발²은 안 아프니?
+                                \nA: 네. 괜찮아요.
+                                \nB: 내가 발³이 느려서 오는 데 한참 걸렸구나.
+                                \nA. 아니에요. 저도 원래 걸음이 느린 편이에요."/>
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:text="‘동음이의어’와 ‘다의어’"
+                                android:textColor="@color/yeonori"
+                                />
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginRight="10dp"
+                                android:lineSpacingExtra="5dp"
+                                android:text="발¹과 발², 발¹과 발³은 발음은 같지만 뜻이 전혀 다른 동음이의어다. 발²과 발³은 발음과 뜻이 같되 상황에 따라 본래의 뜻과 연관된 다른 의미로 해석되는 다의어다
+                                \n"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+
+        </FrameLayout>
+    </LinearLayout>
+
+</TabHost>

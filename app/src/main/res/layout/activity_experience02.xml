@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/nanumsquareb"
+                    android:layout_marginLeft="25dp"
+                    android:text="의상체험" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="40dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <ImageView
+                        android:id="@+id/storeBtn2"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:onClick="but2"
+                        android:background="@drawable/calenderbutton"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="240dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="0dp"
+                    android:textAlignment="center"
+                    android:lineSpacingExtra ="5dp"
+                    android:textSize="10dp"
+                    android:text="'연노리의 의상체험'은 다양한 나라의 전통의상을 체험 할 \n수 있습니다. 전통의상을 직접 입어보고 \n다양한 추억을 만들어보세요 !" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/d01"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="한국[Korea] 전통의상 '한복'" />
+
+            <ImageView
+                android:id="@+id/d03"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress3" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="중국[China] 전통의상 '치파오'" />
+
+            <ImageView
+                android:id="@+id/d04"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress4" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="영국[United Kingdom] '근위병' 전통의상" />
+
+            <ImageView
+                android:id="@+id/d05"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress5" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="베트남[Vietnam] 전통의상 '아오자이'" />
+
+            <ImageView
+                android:id="@+id/d02"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress2" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="맥시코[Mexico] 전통의상 '판초'" />
+
+            <ImageView
+                android:id="@+id/d06"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:padding="0sp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/dress6" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:fontFamily="@font/nanumsquareb"
+                android:textColor="@color/brown"
+                android:text="인도[India] 전통의상 '사리'" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

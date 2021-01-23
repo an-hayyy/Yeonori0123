@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.yeonori1209">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.MY_PERMISSIONS_REQUEST_READ_CONTACTS"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".IntroActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".MyFirebaseMessagingService"
+            tools:ignore="Instantiatable">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <activity android:name=".PolitikActivity" ></activity>
+        <activity android:name=".SosActivity" ></activity>
+        <activity android:name=".ExperienceActivity"></activity>
+        <activity android:name=".EducationActivity"  ></activity>
+        <activity android:name=".BasiclifeActivity" ></activity>
+        <activity android:name=".PregnancybirthActivity" ></activity>
+        <activity android:name=".TrainingActivity" ></activity>
+        <activity android:name=".SoS02Activity" ></activity>
+        <activity android:name=".SoS03Activity" ></activity>
+        <activity android:name=".KoreaEducationActivity" ></activity>
+        <activity android:name=".ForeigneducationActivity" ></activity>
+        <activity android:name=".LoginActivity" ></activity>
+        <activity android:name=".Culture_exActivity" ></activity>
+        <activity android:name=".ExperienceActivity01"></activity>
+        <activity android:name=".ExperienceActivity01_1"></activity>
+        <activity android:name=".ExperienceActivity01_2"></activity>
+        <activity android:name=".ExperienceActivity01_3"></activity>
+        <activity android:name=".ExperienceActivity01_4"></activity>
+        <activity android:name=".ExperienceActivity01_5"></activity>
+        <activity android:name=".ExperienceActivity02"></activity>
+        <activity android:name=".ExperienceActivity02_1"></activity>
+        <activity android:name=".ExperienceActivity02_2"></activity>
+        <activity android:name=".ExperienceActivity02_3"></activity>
+        <activity android:name=".ExperienceActivity02_4"></activity>
+        <activity android:name=".ExperienceActivity02_5"></activity>
+        <activity android:name=".ExperienceActivity02_6"></activity>
+        <activity android:name=".ExperienceActivity03"></activity>
+        <activity android:name=".ExperienceActivity03_1"></activity>
+        <activity android:name=".ExperienceActivity03_2"></activity>
+        <activity android:name=".ExperienceActivity03_3"></activity>
+        <activity android:name=".ExperienceActivity03_4"></activity>
+        <activity android:name=".ExperienceActivity03_5"></activity>
+        <activity android:name=".SignupActivity"></activity>
+        <activity android:name=".Agreement_Activity"></activity>
+        <activity android:name=".ExperienceActivity03_6"></activity>
+        <activity android:name=".ExperienceActivity01_6"></activity>
+        <activity android:name=".TranslationActivity"></activity>
+
+    </application>
+
+</manifest>
